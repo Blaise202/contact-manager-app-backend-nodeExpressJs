@@ -1,0 +1,28 @@
+{
+ "name": "contact-manager-app-backend-nodeexpressjs",
+ "version": "1.0.0",
+ "description": "myContacts backend api",
+ "main": "server.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Blaise202/contact-manger-app-backend-nodeExrpressJs.git"
+ },
+ "author": "Blaise202",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/Blaise202/contact-manger-app-backend-nodeExrpressJs/issues"
+ },
+ "homepage": "https://github.com/Blaise202/contact-manger-app-backend-nodeExrpressJs#readme",
+ "dependencies": {
+  "dotenv": "^16.4.5",
+  "express": "^4.21.1"
+ },
+ "devDependencies": {
+  "nodemon": "^3.1.7"
+ }
+}
