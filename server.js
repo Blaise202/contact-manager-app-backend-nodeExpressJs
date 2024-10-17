@@ -1,8 +1,10 @@
 const express = require("express");
 const errorHandler = require("./middleware/errorHandler");
+const { connectDb } = require("./config/dbConnection");
 const dotenv = require("dotenv").config()
 
-const app = express();
+connectDb()
+const app = express()
 
 const port = process.env.port || 3000
 
